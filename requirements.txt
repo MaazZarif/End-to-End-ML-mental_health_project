@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+joblib
+mlflow
+
+-e .
