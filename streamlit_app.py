@@ -68,7 +68,7 @@ with st.sidebar:
     st.header("⚙️ API Settings")
     api_base_url = st.text_input(
     "FastAPI base URL",
-    value="https://mental-health-api.onrender.com",
+    value="https://student-mental-health-predictor-7s3v.onrender.com",
 )
 
     st.divider()
