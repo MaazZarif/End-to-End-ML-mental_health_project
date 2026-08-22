@@ -67,10 +67,9 @@ st.markdown(
 with st.sidebar:
     st.header("⚙️ API Settings")
     api_base_url = st.text_input(
-        "FastAPI base URL",
-        value="http://localhost:8000",
-        help="Base URL where your FastAPI service is running.",
-    ).rstrip("/")
+    "FastAPI base URL",
+    value="https://mental-health-api.onrender.com",
+)
 
     st.divider()
 
