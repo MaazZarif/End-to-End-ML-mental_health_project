@@ -8,5 +8,8 @@ psycopg2-binary
 python-dotenv
 joblib
 mlflow
+xgboost
+boto3
+streamlit
 
--e .
+#-e .

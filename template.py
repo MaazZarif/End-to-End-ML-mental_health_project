@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-project_name = "mental_health_predictor"
+project_name = "mental_health_project"
 list_of_files = [
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",

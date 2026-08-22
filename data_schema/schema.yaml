@@ -1,0 +1,64 @@
+columns:
+
+  Age:
+    dtype: int
+    nullable: false
+    min: 1
+
+  Gender:
+    dtype: string
+    nullable: false
+
+  Country:
+    dtype: string
+    nullable: false
+
+  Academic_Level:
+    dtype: string
+    nullable: false
+
+  Most_Used_Platform:
+    dtype: string
+    nullable: false
+
+  Purpose_Of_Use:
+    dtype: string
+    nullable: false
+
+  Avg_Daily_Usage_Hours:
+    dtype: float
+    nullable: false
+    min: 0
+
+  Daily_Unlocks:
+    dtype: int
+    nullable: false
+    min: 0
+
+  Study_Hours:
+    dtype: float
+    nullable: false
+    min: 0
+
+  Physical_Activity_Hours:
+    dtype: float
+    nullable: false
+    min: 0
+
+  Sleep_Hours_Per_Night:
+    dtype: float
+    nullable: false
+    min: 0
+    max: 24
+
+  Stress_Level:
+    dtype: string
+    nullable: false
+
+  Mental_Health_Score:
+    dtype: float
+    nullable: false
+    min: 0
+    max: 10
+
+target_column: Mental_Health_Score

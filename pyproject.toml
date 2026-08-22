@@ -1,0 +1,22 @@
+[project]
+name = "mental_health_project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MaazZarif", email = "maazbangash2004@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.5",
+    "pymysql>=1.2.0",
+    "python-dotenv>=1.2.3",
+    "sqlalchemy>=2.0.52",
+]
+
+[project.scripts]
+student-mental-health-project = "student_mental_health_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

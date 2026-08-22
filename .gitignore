@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Project-specific
+artifacts/
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Local model files
+*.pkl
+
+# Local data
+*.csv
+*.npy
+
+# Streamlit
+.streamlit/secrets.toml
